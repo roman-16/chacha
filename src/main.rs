@@ -2,7 +2,7 @@
 #[tokio::main]
 async fn main() {
     use axum::{routing::post, Router};
-    use chacha::app::*;
+    use chacha::app::App;
     use chacha::fileserv::file_and_error_handler;
     use leptos::*;
     use leptos_axum::{generate_route_list, LeptosRoutes};
