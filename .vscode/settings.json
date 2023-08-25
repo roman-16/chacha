@@ -1,0 +1,15 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.rs": "${basename}.scss"
+  },
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".rs",
+        "cmd": "leptosfmt ."
+      }
+    ]
+  },
+  "rust-analyzer.check.command": "clippy"
+}
